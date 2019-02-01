@@ -1,0 +1,438 @@
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+
+    /** Services page **/
+
+    .team-work-img {
+        transform: scale(0.8);
+    }
+
+    .team-work-img-top {
+        right: 0;
+        top: -30px;
+    }
+
+
+    .team-work-img-bottom {
+        right: 0;
+        bottom: -29px;
+    }    
+
+
+    /** Services page end **/
+
+}
+
+
+@media screen and (min-width: 1366px) {
+
+    .modal-box-content {
+        width: 1300px;
+    }
+
+    .modal-info-wrap {
+        width: 300px;
+    }
+
+    .modal-img-wrap {
+        width: 1000px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    .first-back-text {
+        font-size: 150px;
+    }
+
+    .first-back-number {
+        font-size: 180px;
+    }
+
+    .second-back-text {
+        font-size: 85px;
+    }
+
+    .second-back-number {
+        font-size: 160px;
+    }
+
+    .services-icons-wrap svg {
+        height: 120px;
+    }
+
+    .third-back-text {
+        bottom: -100%;
+        font-size: 125px;
+    }
+
+    .fourth-back-text {
+        font-size: 110px;
+    }
+
+    .fourth-back-number {
+        bottom: -75%;
+        font-size: 155px;
+    }
+
+    .head-descr-wrap {
+        left: 12%;
+        right: 12%;
+    }
+
+    .modal-box-content {
+        width: 960px;
+    }
+
+    .modal-info-wrap {
+        width: 250px;
+    }
+
+    .modal-img-wrap {
+        width: 710px;
+    }
+
+
+}	
+
+@media screen and (max-width: 991px) {
+
+
+
+    .head-descr-wrap svg {
+        width: 550px;
+    }
+
+    .top-mnu h3 {
+        position: relative;
+        margin-top: 6px;
+        margin-bottom: 10px;
+        padding-left: 12px;
+        font-size: 45px;
+        z-index: 1003;
+    }
+
+    .my-photo {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .services-wrap {
+        margin-bottom: 80px;
+        padding: 0 40px;
+    }
+
+    .modal-box-content {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .modal-info-wrap {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-img-wrap {
+        float: none;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+.parallax-mirror {
+    display: none !important;
+}
+
+#my-header {
+    background-image: url(../images/header-xs.jpg);
+    background-attachment: fixed;
+}
+
+#my-services {
+    background-image: url(../images/services-xs.jpg);
+    background-attachment: fixed;
+}
+
+
+
+/* About me */
+
+.head-descr-wrap h1 {
+    font-size: 16px;
+}
+
+.head-descr-wrap svg {
+    width: 430px;
+}
+
+.about-info {
+    position: relative;
+}
+
+.mini-logo {
+    position: static;
+    margin-top: 10px;
+	margin-left: 0;
+    height: 50px;
+}
+
+.about-info-block {
+    padding: 0px;
+}
+
+.about-me-text-wrap {
+    padding: 0 40px;
+}
+
+.my-portfolio {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contacts-item {
+    margin-bottom: 40px;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+/* Header */
+
+.header-text-wrap {
+    padding: 30px 80px 10px 25px;
+}
+
+.header-text-wrap h1 {
+	font-size: 85px;
+}
+
+.header-text-wrap h1 span {
+	font-size: 80px;
+}	
+
+.header-text-wrap p {
+    font-size: 25px;
+    margin: -10px -65px 0px 0px;
+}
+
+.top-mnu-active {
+    width: 40%;
+}
+
+.head-descr-wrap {
+    top: 10%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+}
+
+}
+
+@media screen and (min-width: 544px) and (max-width: 767px) {
+
+
+/* Header */
+
+.top-mnu-active {
+    width: 60%;
+}
+
+.head-descr-wrap {
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+}
+
+}
+
+@media screen and (max-width: 543px) {
+
+section {
+    padding: 40px 10px 50px 10px !important;
+}
+
+h2 {
+    font-size: 21px !important;
+}
+
+.section-content-wrap {
+    margin: 40px 0 0 0 !important;
+}
+
+.margin-bot {
+    margin-bottom: 25px !important;
+}
+
+/* Header */
+
+.head-descr-wrap {
+    left: 0;
+    right: 0;
+}
+
+.head-descr-wrap svg {
+    width: 250px;
+    margin-top: 0px;
+}
+
+.head-descr-wrap h1 {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 18px !important;
+}
+
+p {
+    font-size: 13px !important;
+    letter-spacing: 0px !important;
+}
+
+.head-descr-wrap i {
+    font-size: 5px;
+    top: -2px;
+    margin: 0px 5px;
+}
+
+.top-mnu-active {
+    width: 100%;
+}
+
+/* About me */
+
+.my-photo {
+    width: auto;
+}
+
+.about-me-text-wrap {
+    padding: 0;
+}
+
+.s-about-me {
+    padding: 5%;
+    border: 15px solid #000;
+}
+
+.about-content-wrap {
+    border: 3px solid #00a4eb;
+}
+
+.about-info-block-wrap {
+    padding: 15px;
+}
+
+/* Services */
+
+.s-services {
+    border: 15px solid #000;
+}
+
+.border-style {
+    border: 3px solid #00a4eb;
+}
+
+.exterior-des-wrap {
+    position: static;
+    width: 100%;
+}
+
+.objective-des-wrap {
+    position: static;
+    width: 100%;
+}
+
+.right-info-wrap {
+	padding: 0;
+}
+
+.interior-des-info {
+    position: relative;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.small-des-info {
+	position: relative;
+	right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+}
+
+.static-service-wrap {
+    position: relative;
+}
+
+    .services-wrap {
+        margin-bottom: 80px;
+        padding: 0;
+    }
+
+
+    .portfolio-filter li {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin: 0 2px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 10px;
+    }
+
+    .modal-box-content {
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal-info-wrap {
+        float: none;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        overflow: auto;
+    }
+
+    .modal-img-wrap {
+        float: none;
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        bottom: 0;
+        height: auto;
+    }
+
+
+    .modal-info-wrap p {
+        padding: 0;
+        margin: 2px 0 10px 0;
+    }
+
+    .modal-box-content button {
+        top: 5px;
+        right: 5px;
+    }
+
+}
+
+
+
+
+
