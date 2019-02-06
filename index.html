@@ -840,18 +840,18 @@
         <form>
 
             <label for="inp" class="inp footer-form-name">
-              <input type="text" id="inp" placeholder="&nbsp;">
+              <input type="text" id="name" placeholder="&nbsp;">
               <span class="placeholder">имя</span>
               <span class="border"></span>
             </label>
 
             <label for="inp" class="inp footer-form-email">
-              <input type="text" id="inp" placeholder="&nbsp;">
+              <input type="email" id="email" placeholder="&nbsp;">
               <span class="placeholder">e-mail</span>
               <span class="border"></span>
             </label>
 
-            <button class="my-button pull-left">Отправить</button>
+            <button class="my-button pull-left" id="sendmail" type="submit">Отправить</button>
 
         </form>
 
@@ -1023,6 +1023,9 @@
   <script src="libs/scroll-to-id/jquery.malihu.PageScroll2id.min.js"></script>
   <script src="https://tech.jellybo.com/products/SearchBtn3/assets/lib/snap/snap.svg-min.js"></script>
   <script src="https://tech.jellybo.com/products/ScrollBtn6/assets/js/scrollbutton.js"></script>
+
+  <!-- Send SMTP -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 <!--   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
  -->  <script src="js/common.js"></script>

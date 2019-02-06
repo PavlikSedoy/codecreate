@@ -86,3 +86,39 @@
     var rellax = new Rellax('.rellax-text', {speed: -4})
     var rellax = new Rellax('.rellax-number', {speed: -4})
 
+// Send Mail
+var sendBtn = document.getElementById('sendmail'),
+    EmailFormat = /^([a-zA-Z0-9_-]+\.)*[a-zA-Z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/;
+
+// Email Format
+function emailValidate(Email) {
+    return $.trim(Email).match(EmailFormat) ? true : false;
+}
+
+// Send Btn Click
+$(sendBtn).click( function(event){
+
+    event.preventDefault();
+
+    // console.log('click');
+
+    var name = document.getElementById('name').value,
+        email = document.getElementById('email').value;
+
+    if ( emailValidate(email) ) {
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "pavliksedoy@gmail.com",
+            Password : "b0e5354a-4a7c-4558-9320-19a302fa9573",
+            To : 'pavliksedoy@gmail.com',
+            From : "pavliksedoy@gmail.com",
+            Subject : "Заявка с ХАЛТУРЫ",
+            Body : "Имя: " + name + "<br/> Email:" + email + "",
+        }).then(
+          message => console.log(message)
+        );
+    } else {
+        // Show Error email Input
+        console.log('email error');
+    }
+});
